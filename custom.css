@@ -1,0 +1,71 @@
+.widget {
+    border-radius: 5px;
+    padding: 10px;
+    border: 10px;
+    transition: all 0.4s ease 0s;
+    box-shadow:
+        0.5px 0.5px 1.5px rgba(0, 0, 0, 0.035),
+        1.1px 1.1px 3.3px rgba(0, 0, 0, 0.051),
+        1.9px 1.9px 5.6px rgba(0, 0, 0, 0.062),
+        3px 3px 8.6px rgba(0, 0, 0, 0.072),
+        4.4px 4.4px 12.8px rgba(0, 0, 0, 0.081),
+        6.5px 6.5px 18.8px rgba(0, 0, 0, 0.091),
+        9.7px 9.7px 28.1px rgba(0, 0, 0, 0.104),
+        15.5px 15.5px 44.8px rgba(0, 0, 0, 0.122),
+        29px 29px 84px rgba(0, 0, 0, 0.16)
+    ;
+}
+.btn {
+    border-radius:10px;
+}
+
+#signin-page {
+    color: #fff;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://usnavy.github.io/Navy-Design-Guide/img/hero-images/hero-image.jpg);
+    height: 50rem;
+}
+
+#signin-page #content .uf-textinput .uf-input-wrapper {
+    border: 1px solid #dce0e2;
+    border-radius: 1px;
+    background-color: rgb(34, 0, 0);
+    background: rgba(255,255,255,0.4);
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    opacity: 0.6;
+}
+
+#signin-page #content .signin-form .uf-textinput input {
+    background: rgba(255,255,255,0.4);
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  }
+
+#signin-page #content .signin-form button {
+    border: 1px solid #dce0e2;
+    border-radius: 1px;
+    background-color: #fff;
+    background: rgba(255,255,255,0.4);
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    opacity: 0.6;
+}
+#signin-page #content .signin-form button:hover {
+    background-color: #b75b29;
+}
+
+#signin-page #content .signin-form .forgot-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    color:#fff;
+}
+
